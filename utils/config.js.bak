@@ -1,0 +1,6 @@
+const version = '1.0.0';
+const remMyUrl = 'http://www.bjcsghxh.com:9002/#/';
+export {
+	version,
+	remMyUrl
+}

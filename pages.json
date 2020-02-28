@@ -1,0 +1,119 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {}
+		}, {
+			"path": "pages/tabbar/member",
+			"style": {
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50
+			}
+		},
+		{
+			"path": "pages/tabbar/add",
+			"style": {}
+		},
+		{
+			"path": "pages/tabbar/search",
+			"style": {}
+		},
+		{
+			"path": "pages/tabbar/my",
+			"style": {}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {}
+		},
+		{
+			"path": "pages/add-member/add-member",
+			"style": {}
+		},
+		{
+			"path": "pages/member-detail/member-detail",
+			"style": {}
+		},
+		{
+			"path": "pages/tabbar/qianxi",
+			"style": {}
+		}, {
+			"path": "pages/change-pwd/change-pwd",
+			"style": {
+				"navigationBarTitleText": "设置密码"
+			}
+		}
+	    ,{
+            "path" : "pages/new-user/new-user",
+            "style" : {}
+        },{
+            "path" : "pages/community/community",
+            "style" : {}
+        },{
+            "path" : "pages/community/map",
+            "style" : {}
+        },{
+            "path" : "pages/tabbar/add-index",
+            "style" : {}
+        },{
+            "path" : "pages/tabbar/remark",
+            "style" : {}
+        },{
+            "path" : "pages/tabbar/remark-list",
+            "style" : {}
+        },{
+            "path" : "pages/tabbar/video",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"mp-alipay": {
+			/* 支付宝小程序特有相关 */
+			"transparentTitle": "always",
+			"allowsBounceVertical": "NO"
+		},
+		"navigationBarBackgroundColor": "#0081ff",
+		"navigationBarTitleText": "ColorUi for UniApp",
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "white"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+				"pagePath": "pages/tabbar/search",
+				"iconPath": "static/tab-icon/search.png",
+				"selectedIconPath": "static/tab-icon/search-on.png",
+				"text": "疫情"
+			},
+			{
+				"pagePath": "pages/tabbar/qianxi",
+				"iconPath": "static/tab-icon/chart.png",
+				"selectedIconPath": "static/tab-icon/chart-on.png",
+				"text": "迁徙"
+			},
+			{
+				"pagePath": "pages/tabbar/add-index",
+				"iconPath": "static/tab-icon/plus.png",
+				"selectedIconPath": "static/tab-icon/plus-on.png"
+			},
+			{
+				"pagePath": "pages/tabbar/video",
+				"iconPath": "static/tab-icon/list.png",
+				"selectedIconPath": "static/tab-icon/list-on.png",
+				"text": "视频"
+			},
+			{
+				"pagePath": "pages/tabbar/my",
+				"iconPath": "static/tab-icon/me.png",
+				"selectedIconPath": "static/tab-icon/me-on.png",
+				"text": "我的"
+			}
+		]
+	},
+	"easycom": {
+		"z-table": "@/components/z-table/z-table"
+	}
+}
